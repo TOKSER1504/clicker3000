@@ -1,22 +1,22 @@
 {% load static %}
 <html lang="ru"> 
 <head> 
-    <title>Лучший кликер на планете</title>     
+    <title>КЛИКЕР3000</title>     
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
     <script type="text/javascript" src="{% static 'js/index.js' %}"></script>
 </head> 
 <body>
     <main class="app">
         <nav class="nav">
-            Привет, {{ user.username }}
-            <a href="{% url 'logout' %}">Выйти</a>
+            <span class="hello">Привет, {{ user.username }}</span><br>
+            <a href="{% url 'logout' %}" class="exit">Выйти из аккаунта</a>
         </nav>
 
         <div class="container">
             <div id='coins'>{{core.coins}}</div> 
-            <button onclick="call_click()">Нажми меня</button>
+            <button onclick="call_click()" class="btn">КЛИК</button>
             <p>
-                Невероятная мощь клика: <span id="click_power">{{ core.click_power }}</span> 
+                Сила клика: <span id="click_power">{{ core.click_power }}</span> 
             </p>
         </div>
 

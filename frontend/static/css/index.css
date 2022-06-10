@@ -1,0 +1,39 @@
+body{
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.boosts{
+    background-color: brown;
+}
+
+.nav{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.hello{
+    padding: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color: darkviolet;
+}
+
+.exit{
+    text-decoration: none;
+    color: crimson;
+}
+
+#coins{
+    padding-bottom: 50px;
+    font-size: 5em;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    color: red;
+    border-radius: 100%;
+    background-color: gold;
+}
