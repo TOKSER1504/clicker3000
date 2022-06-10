@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     background-color: gainsboro;
     text-align: center;
@@ -5,6 +10,7 @@ body{
 
 .boosts{
     background-color: brown;
+    height: 200px;
 }
 
 .nav{
@@ -16,7 +22,7 @@ body{
     padding: 20px;
     font-size: 2em;
     font-weight: bold;
-    color: darkviolet;
+    color: rgb(85, 83, 209);
 }
 
 .exit{
@@ -27,13 +33,36 @@ body{
 #coins{
     padding-bottom: 50px;
     font-size: 5em;
+    color: rgb(85, 83, 209);
+}
+
+.power{
+    color: rgb(85, 83, 209);
+    font-size: 1.5em;
+    padding: 30px;
 }
 
 .btn{
     width: 100px;
     height: 100px;
     border: 2px solid black;
-    color: red;
+    color: rgb(85, 83, 209);
+    font-size: 1.3em;
     border-radius: 100%;
     background-color: gold;
+}
+
+.boost_h3{
+    color: gold;
+    font-size: 2em;
+    padding: 10px 0;
+}
+
+.boost{
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+    border-radius: 100%;
+    background-color: gold;
+    font-size: 1em;
 }

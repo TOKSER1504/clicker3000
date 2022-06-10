@@ -15,13 +15,13 @@
         <div class="container">
             <div id='coins'>{{core.coins}}</div> 
             <button onclick="call_click()" class="btn">КЛИК</button>
-            <p>
+            <p class="power">
                 Сила клика: <span id="click_power">{{ core.click_power }}</span> 
             </p>
         </div>
 
         <aside class="boosts" id="boosts"> 
-            <h3>Бусты</h3> 
+            <h3 class="boost_h3">Бусты</h3> 
             <div class="boosts-holder" id="boosts-holder"> 
                 {% for boost in boosts %} 
                     <button class="boost" id="boost_{{boost.id}}" onclick="buy_boost({{boost.id}})"> 
